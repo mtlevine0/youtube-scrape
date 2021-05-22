@@ -43,6 +43,13 @@ docker build -t <your username>/youtube-scrape .
 docker run -p 8080:8080 -d <your username>/youtube-scrape
 ```
 
+## Deploy to AWS Lambda
+
+```bash
+npm install
+7z a youtube-search.zip *
+```
+
 ## Deploy to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
